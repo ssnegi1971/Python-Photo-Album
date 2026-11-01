@@ -1,0 +1,7 @@
+This is a Python Photo Album
+
+It can browse to a directory and display the image files in a pane as thumbnails.
+
+When you select a particular image it expands the thumbnail into a image in the adjacent pane.
+
+valid_exts = (".png", ".jpg", ".jpeg", ".gif", ".bmp", ".webp")
