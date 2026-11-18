@@ -7,7 +7,7 @@ When you select a particular image it expands the thumbnail into a image in the 
 valid_exts = (".png", ".jpg", ".jpeg", ".gif", ".bmp", ".webp")
 
 #steps to create EXE for one-click use of app
-place pythonTextEditor.py in a folder (example:C:\Users\Admin\Desktop\work\Python\PythonApps\)
+place PythonPhotoAlbum.py in a folder (example:C:\Users\Admin\Desktop\work\Python\PythonApps\)
 along with txt_studio.ico.
 #Goto command prompt
 
