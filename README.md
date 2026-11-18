@@ -7,12 +7,15 @@ When you select a particular image it expands the thumbnail into a image in the 
 valid_exts = (".png", ".jpg", ".jpeg", ".gif", ".bmp", ".webp")
 
 #steps to create EXE for one-click use of app
+
 place PythonPhotoAlbum.py in a folder (example:C:\Users\Admin\Desktop\work\Python\PythonApps\)
-along with txt_studio.ico.
+
+along with txt_studio.ico and build_photo_exe.bat.
+
 #Goto command prompt
 
 pip install pyinstaller
 
-pyinstaller --noconsole --onefile --icon C:\Users\Admin\Desktop\work\Python\PythonApps\txt_studio.ico C:\Users\Admin\Desktop\work\Python\PythonApps\PythonPhotoAlbum.py
+double click build_photo_exe.bat
 
-It will create EXE in folder C:\Users\Admin\dist by default. Copy EXE to desired location.
+It will create EXE in folder C:\...\dist by default. Copy EXE to desired location.
